@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676934232103' stop='1676934232116'>
+    <name>Landing Page</name>
+    <title>Landing Page</title>
+    <test-cases>
+        <test-case start='1676934232104' status='passed' stop='1676934232107'>
+            <name>should check the aura app lands on the landing page</name>
+            <title>should check the aura app lands on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676934232112' status='broken' stop='1676934232114'>
+            <name>should allow you to be able to get started</name>
+            <title>should allow you to be able to get started</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>driver.element is not a function</message>
+                <stack-trace>TypeError: driver.element is not a function
+                    at Context.&lt;anonymous> (/Users/enabhandari/projects/webdriverio-mobile-tests/test/specs/LandingPage.js:30:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676934232116' status='pending' stop='1676934232116'>
+            <name>should be able to login with google account</name>
+            <title>should be able to login with google account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

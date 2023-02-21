@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676868160475' stop='1676868164114'>
+    <name>Landing Page</name>
+    <title>Landing Page</title>
+    <test-cases>
+        <test-case start='1676868160475' status='passed' stop='1676868160478'>
+            <name>should check the aura app lands on the landing page</name>
+            <title>should check the aura app lands on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676868160482' status='broken' stop='1676868164113'>
+            <name>should allow you to be able to get started</name>
+            <title>should allow you to be able to get started</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>The selector "com.android.permissioncontroller:id/permission_allow_foreground_only_button" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "com.android.permissioncontroller:id/permission_allow_foreground_only_button" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Context.&lt;anonymous> (/Users/enabhandari/projects/webdriverio-mobile-tests/test/specs/LandingPage.js:23:11)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676868164114' status='pending' stop='1676868164114'>
+            <name>should be able to login with google account</name>
+            <title>should be able to login with google account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

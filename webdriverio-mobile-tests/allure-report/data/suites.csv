@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Tue Feb 21 10:49:37 AEDT 2023","Tue Feb 21 10:49:37 AEDT 2023","0","","Landing Page","","Landing Page","should be able to login with google account","should be able to login with google account",""
+"broken","Tue Feb 21 10:49:22 AEDT 2023","Tue Feb 21 10:49:37 AEDT 2023","14838","","Landing Page","","Landing Page","should allow you to be able to get started","should allow you to be able to get started",""
+"passed","Tue Feb 21 10:49:22 AEDT 2023","Tue Feb 21 10:49:22 AEDT 2023","3","","Landing Page","","Landing Page","should check the aura app lands on the landing page","should check the aura app lands on the landing page",""

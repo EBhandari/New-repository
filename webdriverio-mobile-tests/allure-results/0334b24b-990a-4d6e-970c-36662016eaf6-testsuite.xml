@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1676936487687' stop='1676936502516'>
+    <name>Landing Page</name>
+    <title>Landing Page</title>
+    <test-cases>
+        <test-case start='1676936487688' status='passed' stop='1676936487692'>
+            <name>should check the aura app lands on the landing page</name>
+            <title>should check the aura app lands on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1676936487697' status='broken' stop='1676936502511'>
+            <name>should allow you to be able to get started</name>
+            <title>should allow you to be able to get started</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "id=com.android.chrome:id/negative_button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "id=com.android.chrome:id/negative_button" because element wasn't found
+                    at async Context.&lt;anonymous> (/Users/enabhandari/projects/webdriverio-mobile-tests/test/specs/LandingPage.js:32:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1676936502515' status='pending' stop='1676936502515'>
+            <name>should be able to login with google account</name>
+            <title>should be able to login with google account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
